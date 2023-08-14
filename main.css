@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: rgb(78 78 78);
+    text-decoration: none;
+}
+.contenedor-prpal{
+    padding-top: 10rem;
+}
+.textos{
+    width: 100%;
+}
+.iconos{
+    font-size: 2rem;
+}
+.iconos-lenguajes{
+    padding-top: 2rem;
+}
