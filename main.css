@@ -1,9 +1,9 @@
 body{
-    background-color: black;
+    background-color: #575555;
     color: white;
 }
 a{
-    color: rgb(78 78 78);
+    color: rgb(35 35 35);
     text-decoration: none;
 }
 .contenedor-prpal{
@@ -17,4 +17,15 @@ a{
 }
 .iconos-lenguajes{
     padding-top: 2rem;
+}
+.contenedor-datos{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.tamano{
+    width: 10%;
+    border: 5px solid #272727;
+    border-radius: 80px;
 }
