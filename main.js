@@ -37,7 +37,13 @@ const init = () => {
         }
 
         datos.map((item) => {
-            //console.log(item);
+            const temperatura = item.main.temp;
+            const humedad = item.main.humidity;
+
+            const temperaturaReal = temperatura - 32 / 1.8;
+            const datosFinal = Math.round(temperaturaReal);
+
+            console.log(`humedad real: ${humedad}`);
         })
     })
     .catch(function (error) {
